@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Asma-ul-Husna</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label">Hello blank fragment</string>
+    <string name="title">Al Asma ul Husna</string>
+    <string name="msg">Learn Urdu and English Meaning\nof 99 Names of Allah</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3563417028008503~2510830472</string>
+
+</resources>

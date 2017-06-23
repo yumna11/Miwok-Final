@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+    android:background="#379237">
+       <ImageView
+           android:layout_width="55dp"
+           android:layout_height="55dp"
+
+           android:layout_alignParentLeft="true"
+           android:id="@+id/play"
+           android:paddingRight="5dp"
+           android:paddingLeft="16dp"
+
+           android:layout_centerVertical="true"/>
+
+       <LinearLayout
+           android:layout_marginLeft="16dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/play"
+           android:orientation="vertical"
+           android:layout_centerVertical="true">
+           <TextView
+               android:layout_weight="1"
+               android:layout_width="180dp"
+               android:layout_height="wrap_content"
+               android:singleLine="false"
+               android:text="English"
+               android:textSize="18sp"
+               android:id="@+id/eng_trans"
+               android:textColor="#FFFFFF"
+               android:gravity="top"/>
+
+          <TextView
+               android:textSize="21sp"
+               android:textColor="#FFFFFF"
+              android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              android:layout_marginRight="105dp"
+
+               android:text="Urdu"
+               android:gravity="bottom"
+               android:id="@+id/urdu_trans" />
+       </LinearLayout>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="30sp"
+           android:textColor="#FFFFFF"
+           android:singleLine="false"
+           android:layout_marginLeft="210dp"
+           android:gravity="center"
+           android:id="@+id/arabic"
+           android:layout_centerVertical="true"
+           android:layout_alignParentRight="true"
+           android:padding="10dp"
+           android:layout_marginRight="8dp"/>
+
+
+
+   </RelativeLayout>
+
+
+
